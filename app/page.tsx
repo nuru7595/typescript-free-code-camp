@@ -1,7 +1,14 @@
 export default function Home() {
     return (
-        <section>
-            <h1 className="py-12 font-bold px-6">Coming Soon . . .</h1>
-        </section>
+        <>
+            <section>
+                <h4 className="section-title">Challenge: 1</h4>
+                <div className="section-container">Loading Soon . . .</div>
+            </section>
+            <section>
+                <h4 className="section-title">Challenge: 2</h4>
+                <div className="section-container">Loading Soon . . .</div>
+            </section>
+        </>
     );
 }

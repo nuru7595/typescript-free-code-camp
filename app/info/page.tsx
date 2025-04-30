@@ -19,7 +19,7 @@ export default function Information() {
                         </tr>
                         <tr>
                             <td>Allocated Time :-</td>
-                            <td>25 Minutes</td>
+                            <td>40 Minutes</td>
                         </tr>
                         <tr>
                             <td>Status :-</td>

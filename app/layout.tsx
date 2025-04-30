@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 export const metadata: Metadata = {
-    title: "Next Js",
+    title: "TypeScript",
     icons: {
         icon: "/favicon.ico",
     },
@@ -18,7 +18,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body>
-                <Header text="Next Js - Free Code Camp" />
+                <Header text="TypeScript - Free Code Camp" />
                 <main className="container">{children}</main>
                 <Footer your_name="Nuru" started_year="2025" />
             </body>
