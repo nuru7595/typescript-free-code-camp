@@ -1,9 +1,9 @@
 export default function Information() {
     return (
-        <section>
+        <section id="info">
             <h2 className="section-title">Information</h2>
             <div>
-                <table className="table-fixed w-full font-bold">
+                <table className="table-fixed w-full font-bold text-center">
                     <tbody>
                         <tr>
                             <td>Started :-</td>

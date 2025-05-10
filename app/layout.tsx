@@ -18,7 +18,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body>
-                <Header text="TypeScript - Free Code Camp" />
+                <Header text="TypeScript" />
                 <main className="container">{children}</main>
                 <Footer your_name="Nuru" started_year="2025" />
             </body>
