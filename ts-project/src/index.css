@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+    --font-Nunito: 'Nunito', sans-serif;
+}
+
+@utility container {
+    margin-inline: auto;
+    padding-inline: 12px;
+}
+
+body {
+  @apply font-Nunito text-white bg-sky-400;
+}
+
+header,
+footer {
+  @apply bg-sky-700 font-bold text-center px-3;
+}
+
+header span {
+  @apply px-4 select-none cursor-pointer hover:bg-sky-600 duration-300 py-3 capitalize;
+}
+
+span.active {
+  @apply bg-sky-600 border-y border-white;
+}
+
+section {
+  @apply bg-sky-700 rounded-xl my-3;
+}
+
+.section-title {
+  @apply font-bold text-center py-2 border-b-2 border-white;
+}
+
+.section-container {
+  @apply p-3;
+}
+
+h1 {
+  @apply text-3xl;
+}
+
+h2 {
+  @apply text-2xl;
+}
+
+h3 {
+  @apply text-xl;
+}
+
+h4 {
+  @apply text-lg;
+}
+
+.sec-info tr:not(:last-child) {
+  @apply border-b border-white;
+}
+
+.sec-info td {
+  @apply p-2 font-bold tracking-wide text-center;
+}
+
+.sec-info a {
+  @apply underline;
+}
