@@ -1,9 +1,9 @@
-export default function Footer({ name }) {
+export default function Footer({ owner }) {
     const year = new Date().getFullYear();
     return (
         <footer className="py-3">
             <p>
-                &copy; {year} {name}, All Rights Reserved.
+                &copy; {year} {owner}, All Rights Reserved.
             </p>
         </footer>
     );
