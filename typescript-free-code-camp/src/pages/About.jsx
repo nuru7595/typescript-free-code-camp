@@ -1,6 +1,6 @@
 export default function About() {
     const updated = "25 June 2025";
-    const time = 0.2;
+    const time = 0.3;
     // Constant Values;
     const started = "25 June 2025";
     const start_date = new Date(started);

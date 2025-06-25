@@ -35,6 +35,16 @@ export default function App() {
                             element={item.element}
                         />
                     ))}
+                    <Route
+                        path="*"
+                        element={
+                            <section>
+                                <h4 className="py-16 text-center">
+                                    Page Not Found...
+                                </h4>
+                            </section>
+                        }
+                    />
                 </Routes>
             </main>
             <Footer owner={ownerName} />
