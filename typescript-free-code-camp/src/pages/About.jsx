@@ -1,32 +1,24 @@
 export default function About() {
-    const updated = "25 June 2025";
-    const time = 0.3;
-    // Constant Values;
-    const started = "25 June 2025";
-    const start_date = new Date(started);
-    const end_date = new Date(updated);
-    const totalDays = (end_date - start_date) / (1000 * 60 * 60 * 24);
-
     const data = [
         {
             key: "Started",
-            value: started,
+            value: "25 June 2025",
         },
         {
             key: "Last Modified",
-            value: updated,
-        },
-        {
-            key: "Ongoing",
-            value: totalDays + " Days",
-        },
-        {
-            key: "Allocated Time",
-            value: time + " Hours",
+            value: "26 June 2025",
         },
         {
             key: "Status",
-            value: "Running...",
+            value: "Completed!!",
+        },
+        {
+            key: "Completed in",
+            value: "1 Day",
+        },
+        {
+            key: "Allocated Time",
+            value: "4 Hours 48 Minutes",
         },
         {
             key: "Source",
